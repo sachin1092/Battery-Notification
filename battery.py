@@ -33,7 +33,7 @@ if __name__ == "__main__":
 			bat_level = int(f.readline().strip())
 		with open(path + status, 'r') as f:
 			charge = f.readline().strip()
-		if bat_level == 35 or bat_level == 20 or bat_level == 15 or bat_level <= 10:
+		if bat_level == 35 or bat_level == 20 or bat_level <= 15:
 			notify(charge, bat_level)
 
 		time.sleep(900)
