@@ -1,4 +1,4 @@
 Battery Script
 --------------
 
-Sends notification to phone on specific battery levels.
+Sends notification from system to phone on specific battery levels.
